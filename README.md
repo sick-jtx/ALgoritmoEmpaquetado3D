@@ -2,11 +2,18 @@ Abrir GLApp/GLApp.sln
 
 Entrada de datos GLApp/input.txt
 
-->numero de cajas
+->tamaño del contenedor alto-ancho-largo
 
-->tamaño del contenedor
+->numero de formatos n
 
-->n lineas x-y-z-alto-ancho-largo
+->n lineas m-formato-x-y-z-alto-ancho-largo
 
-solo dibuja
+->m=numero de cajas por formato
+
+Salida de datos GLApp/output.txt
+
+->Girar dibujo con los direccionales
+
+->tabulador para ir a la siguiente caja
+
 # ALgoritmoEmpaquetado3D
