@@ -1,0 +1,25 @@
+﻿  main.cpp
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(110): warning C4244: 'inicializando': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(111): warning C4244: 'inicializando': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(112): warning C4244: 'inicializando': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(113): warning C4244: '=': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(114): warning C4244: '=': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(115): warning C4244: '=': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(122): warning C4244: '=': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(123): warning C4244: '=': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\caja.h(124): warning C4244: '=': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(53): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(59): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(39): warning C4101: 'z': variable local sin referencia
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(39): warning C4101: 'y': variable local sin referencia
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(39): warning C4101: 'x': variable local sin referencia
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(77): warning C4018: '<': no coinciden signed/unsigned
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(100): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(101): warning C4244: '=': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(175): warning C4018: '<': no coinciden signed/unsigned
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\empaquetado.h(177): warning C4244: 'argumento': conversión de 'GLfloat' a 'int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\main.cpp(28): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\main.cpp(47): warning C4244: 'argumento': conversión de 'float' a 'GLint'; posible pérdida de datos
+c:\users\admin\desktop\opengl-3dmodelviewer-master\tfcomplejidad\tfcomplejidad\glapp\glapp\main.cpp(135): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLubyte'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  GLApp.vcxproj -> C:\Users\Admin\Desktop\OpenGL-3DModelViewer-master\TfComplejidad\TFComplejidad\GLApp\Debug\GLApp.exe
