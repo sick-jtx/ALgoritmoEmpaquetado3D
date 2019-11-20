@@ -16,7 +16,7 @@ public:
 	bool alcanza(int z,int i);
 	void pos_generator(int z);
 	void pos_draw_generatoor();
-
+	void salida_datos();
 	int ncontendores;
 	
 
@@ -167,11 +167,24 @@ bool Empaquetado::alcanza(int z,int i){
 	objetos[i].orientacion = 0;
 	return false;
 }
-
+void Empaquetado::salida_datos(){
+	int volumentot = contenedor.alto*contenedor.ancho*contenedor.largo*ncontendores;
+	int volacum = 0;
+	for (Caja i : objetos)volacum += i.alto*i.ancho*i.largo;
+	out << "Contenedores Usados: " << ncontendores << endl;
+	out << "Volumen Disponible: " << (volumentot - volacum)<<"m3\n";
+	out << "Volumen Ocupado: " << volacum << endl;
+	out << "Cajas a transportar: " << objetos.size();
+	out << "NumCont\tformato\tcoordenadas\torientacion" << endl;
+	for (int i = 0; i < objetos.size(); i++) {
+		out << colocados[i].contenedor << "\t" << colocados[i].tipo << "\t(" << colocados[i].x << ", " << colocados[i].y << ", " << colocados[i].z << ")\t" << colocados[i].orientacion << endl;
+	}
+}
 void Empaquetado::pos_draw_generatoor(){
+
 	contenedor.SetPositionFix(0, 0, 0);
 	contenedor.SetPositionDraw(anchop, largop, contenedor.alto, contenedor.ancho, contenedor.largo);
-	out << "num\tformato\tcoordenadas\torientacion" << endl;
+	
 	for (int i = 0; i < objetos.size(); i++) {
 		out<<colocados[i].contenedor<<"\t"<<colocados[i].tipo<<"\t("<< colocados[i].x << ", " << colocados[i].y << ", " << colocados[i].z <<")\t"<<colocados[i].orientacion<< endl;
 		colocados[i].SetPositionFix(colocados[i].x, colocados[i].y, colocados[i].z);

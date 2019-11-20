@@ -55,6 +55,7 @@ int main(void) {
 	
 	//////// inicializar lo que quieras
 	empaquetado.pos_generator(0);
+	empaquetado.salida_datos();
 	empaquetado.pos_draw_generatoor();
 
 	// Loop until the user closes the window
